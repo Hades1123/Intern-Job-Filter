@@ -10,13 +10,102 @@ pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tessera
 
 base_dir = Path(__file__).resolve().parent.parent
 downloads_dir = base_dir / "downloads"
-keywords = [
-    "python", "java", "javascript", "html", "css", "react", "vue", "node",
-    "django", "flask", "fastapi", "tensorflow", "pytorch", "docker",
-    "kubernetes", "aws", "azure", "spring", "mysql", "mongodb", "git", "c++",
-    'c#','typescript','nextjs','nestjs', 'mySQL', 'reactjs',
-]
 
+keywords = [
+    # frontend
+    "javascript",
+    "typescript",
+    "html",
+    "css",
+    "react",
+    "vue",
+    "angular",
+    "svelte",
+    "nextjs",
+    "nuxt",
+    "tailwindcss",
+    "bootstrap",
+
+    # backend
+    "nodejs",
+    "express",
+    "nestjs",
+    "python",
+    "django",
+    "flask",
+    "fastapi",
+    "java",
+    "springboot",
+    "csharp",
+    "dotnet",
+    "go",
+    "gin",
+    "fiber",
+    "php",
+    "laravel",
+    "ruby",
+    "rails",
+    "graphql",
+    "restapi",
+    "mysql",
+    "postgresql",
+    "mongodb",
+    "prisma",
+    "typeorm",
+    "sequelize",
+    "mongoose",
+    "docker",
+
+    # mobile
+    "flutter",
+    "dart",
+    "reactnative",
+    "kotlin",
+    "swift",
+    "androidstudio",
+    "xcode",
+    "capacitor",
+    "ionic",
+    "expo"
+
+    # ai
+    "pytorch",
+    "tensorflow",
+    "transformers",
+    "scikitlearn",
+    "keras",
+    "openai",
+    "langchain",
+    "llama",
+    "onnx",
+    "huggingface",
+
+    # data
+    "pandas",
+    "numpy",
+    "matplotlib",
+    "seaborn",
+    "scipy",
+    "sql",
+    "spark",
+    "hadoop",
+    "airflow",
+    "superset",
+
+    # devops
+    "kubernetes",
+    "jenkins",
+    "gitlabci",
+    "githubactions",
+    "terraform",
+    "ansible",
+    "prometheus",
+    "grafana",
+    "nginx",
+    "aws",
+    "gcp",
+    "azure"
+]
 results = []
 
 for file in downloads_dir.glob("*.pdf"):
