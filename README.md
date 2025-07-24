@@ -57,18 +57,6 @@ python src/OCR_Reading.py
 
 ````
 
----
-
-### 4. **Xong rồi thì đẩy GitHub như sau**:
-```bash
-git init
-git add .
-git commit -m "Initial commit: internship automation tool"
-git remote add origin https://github.com/your-username/your-repo-name.git
-git push -u origin main
-````
-
----
 
 🎉 Done! Complete: 95.6268221574344 %
 Danh sách các công ty bị thiếu do không có file pdf
