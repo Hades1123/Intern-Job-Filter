@@ -186,11 +186,11 @@ with sync_playwright() as p:
                         print(f"🧠 Found keywords: {found}")
                     except Exception as e:
                         print(f"❌ OCR Error: {e}")
-                        company_data["Ngôn ngữ / Framework"] = ""
+                        company_data["Ngôn ngữ / Framework"] = "OCR error"
             
             if not pdf_found:
                 print(f"⚠️ No PDF found for {title_text}")
-                company_data["Ngôn ngữ / Framework"] = "Error"
+                company_data["Ngôn ngữ / Framework"] = "No pdf found"
                 company_do_not_have_pdf.append(title_text)
             else:
                 company_quantity += 1
