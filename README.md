@@ -57,9 +57,9 @@ python src/OCR_Reading.py
 
 ````
 
+🎉 Done! Processed 331 / 363 companies
 
-🎉 Done! Complete: 95.6268221574344 %
 Danh sách các công ty bị thiếu do không có file pdf
 ['CÔNG TY TNHH UGOTECHS', 'CÔNG TY CỔ PHẦN TRUYỀN THÔNG ÁNH SÁNG', 'CÔNG TY AUTONOMOUS VIỆT NAM', 'CÔNG TY TNHH MAYTECH', 'TỔNG CÔNG TY CỔ PHẦN DỊCH VỤ KỸ THUẬT DẦU KHÍ VIỆT NAM', 'TẬP ĐOÀN CÔNG NGHIỆP – VIỄN THÔNG QUÂN ĐỘI', 'CÔNG TY TNHH PHẦN MỀM FPT HỒ CHÍ MINH - TẬP ĐOÀN FPT', 'PHENOMICS LABORATORY', 'CÔNG TY TNHH ALCHERA VIỆT NAM', 'CÔNG TY CỔ PHẦN ACCESSED VIỆT NAM', 'TỔNG CÔNG TY GIẢI PHÁP DOANH NGHIỆP VIETTEL – CHI NHÁNH TẬP ĐOÀN CÔNG NGHIỆP – VIỄN THÔNG QUÂN ĐỘI', 'CÔNG TY TNHH ACACY', 'CÔNG TY TNHH MTV DƯƠNG HOÀNG HOA', 'CÔNG TY CỔ PHẦN HITEK SOLUTION', 'INFINITE SOFTWARE COMPANY LIMITED']
-
 Hiện tại vẫn chưa xử lí công ty chỉ có file .docx
+4 công ty nằm trong thẻ a chưa lấy được nữa 😎😎😎😎😎

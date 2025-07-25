@@ -132,7 +132,7 @@ with sync_playwright() as p:
             time.sleep(3)
             
             title_element = page.query_selector("div.about-course h4")
-            title_text = unidecode(title_element.inner_text().strip() if title_element else 'unknown') 
+            title_text = title_element.inner_text().strip() if title_element else 'unknown'
             company_data["Tên công ty"] = title_text
             
             h6_texts = [
@@ -159,7 +159,7 @@ with sync_playwright() as p:
                 text = link.inner_text()
                 if text.lower().endswith(".pdf"):
                     pdf_found = True
-                    new_filename = f"{title_text}_{index}.pdf"
+                    new_filename = f"{unidecode(title_text)}_{index}.pdf"
                     print(f"⬇️  Found PDF: {text}")
                     with page.expect_download() as download_info:
                         link.click(force=True)
@@ -170,9 +170,9 @@ with sync_playwright() as p:
 
                     # OCR file
                     print(f"🔍 OCR {pdf_path.name}")
-                    safe_path = downloads_dir / pdf_path.name 
+                    PATH = downloads_dir / pdf_path.name 
                     try:
-                        images = convert_from_path(safe_path, dpi=200)
+                        images = convert_from_path(PATH, dpi=200)
                         text = ""
                         for image in images:
                             text += pytesseract.image_to_string(image)
