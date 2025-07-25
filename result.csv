@@ -1,21 +1,346 @@
 Tên công ty,Số lượng đăng ký tối đa,Số sinh viên chấp nhận tối đa,Số lượng sinh viên đã đăng ký,Số lượng sinh viên đã được chấp nhận,Ngôn ngữ / Framework
+CÔNG TY CỔ PHẦN GIẢI PHÁP CÔNG NGHỆ HTSC, 1, 1, 0, 1,"C#, .net, vue, mongodb"
+CÔNG TY CỔ PHẦN DỊCH VỤ DI ĐỘNG TRỰC TUYẾN (M_SERVICE) – VÍ MOMO, 1, 1, 0, 1,
+CÔNG TY TNHH MTV CÔNG NGHỆ CAO NHA TRANG, 2, 2, 0, 2,"python, vue, sql, css, react, postgresql, spring, fastapi, tensorflow, mongodb"
+CÔNG TY CP GIẢI PHÁP CÔNG NGHỆ TRUYỀN THÔNG ĐA PHƯƠNG TIỆN SÁNG KIẾN (IMT SOLUTIONS), 15, 5, 3, 3,"php, python, angular, java, vue, react, .net"
+CÔNG TY TNHH INOVAETION, 1, 1, 0, 1,"bootstrap, angular, java, css, html, nodejs, javascript, mongodb"
+CÔNG TY TNHH Ê SU HAI, 6, 2, 1, 1,"php, python"
+CÔNG TY CỔ PHẦN GIHOT, 21, 7, 0, 7,"C#, java, vue, mysql, spring, .net, sql"
+CÔNG TY CỔ PHẦN SUN.STUDIO (SS), 15, 5, 0, 4,"typescript, C#, java, html, javascript"
+CÔNG TY TNHH MTV CƠ KHÍ VŨ TOÀN, 3, 3, 0, 3,"asp.net, C#, java, mysql, css, .net, javascript, sql"
+CÔNG TY CỔ PHẦN SPLUS-SOFTWARE, 15, 15, 0, 13,"asp.net, C#, kotlin, css, azure, .net, html, sql"
+CÔNG TY TNHH ACACY, 1, 1, 0, 1,"keras, python, vue, css, tensorflow"
+CÔNG TY TNHH SYNOPSYS VIET NAM, 5, 5, 0, 5,
+CÔNG TY TNHH GIẢI PHÁP ABSOLUTE BUSINESS PARTNER, 1, 1, 0, 0,"pandas, python, sql"
+CÔNG TY CỔ PHẦN CÔNG NGHỆ CAO ALTISSS, 12, 4, 5, 0,"typescript, sql, css, react, postgresql, express, mongodb, tailwindcss"
+VĂN PHÒNG ĐẠI DIỆN CÔNG TY CỔ PHẦN TRỰC TUYẾN GOSU, 18, 6, 0, 4,"pandas, python, seaborn, vue, flask, matplotlib, openai, langchain"
+CÔNG TY TNHH MTV MGM TECHNOLOGY PARTNERS VIỆT NAM, 30, 10, 1, 3,"react, java, spring, typescript"
+CÔNG TY TNHH PHÁT TRIỂN VÀ ỨNG DỤNG TỐI ƯU HÓA TRỰC TUYẾN - ONLINE OPTIMIZATION DEVELOPMENT AND APPLICATION CO. LTD (OPDA), 1, 1, 0, 1,"php, python, numpy, css, matplotlib"
+CÔNG TY TNHH TRUINOVATE, 12, 4, 2, 2,"kubernetes, grafana, python, aws, docker, sql, postgresql, react, swift, xcode, fastapi, mongodb, prometheus"
+CÔNG TY CỔ PHẦN CÔNG NGHỆ & TRUYỀN THÔNG VIỆT NAM (VNTT), 1, 1, 0, 1,"golang, docker"
+CÔNG TY CỔ PHẦN BÁN DẪN FPT, 1, 1, 0, 1,
+CÔNG TY CỔ PHẦN ACCESSED VIỆT NAM, 120, 40, 3, 0,"java, spring"
+CÔNG TY TNHH BLOOM MEDIA, 1, 1, 0, 1,"python, typescript, angular, css, html, openai, express, langchain"
+CÔNG TY CỔ PHẦN TECHLAB, 12, 4, 0, 2,
+CÔNG TY TNHH SẢN XUẤT THƯƠNG MẠI KỸ THUẬT CTG, 1, 1, 0, 1,"javascript, java, react, spring"
+CÔNG TY TNHH KỸ THUẬT - THƯƠNG MẠI - DỊCH VỤ TIN HỌC THT, 1, 1, 0, 1,"php, java, mysql, css, react, html, javascript, sql, tailwindcss"
+CÔNG TY TNHH PASCALIA ASIA VIỆT NAM, 3, 3, 0, 3,"php, nginx, mysql, vue, aws, docker, laravel, sql"
+SCHAEFFLER VIETNAM COMPANY LIMITED, 1, 1, 0, 1,"nestjs, python, typescript, java, docker, spring, react, nodejs, sql"
+CÔNG TY TRÁCH NHIỆM HỮU HẠN L.C.S, 1, 1, 0, 1,"transformers, python, postgresql, react, fastapi, huggingface, sql"
+RAINBOW 5S CO. LTD, 1, 1, 0, 1,"C#, python"
+CÔNG TY CỔ PHẦN CÔNG NGHỆ FIREAPPS, 2, 2, 0, 2,"php, laravel, langchain, python"
+CÔNG TY TNHH TRIBIZ, 2, 2, 0, 2,"java, css, react, .net, html, nodejs, javascript"
+GROWTH DIGITAL MARKETING - ONEADS, 9, 3, 0, 1,
+CÔNG TY CỔ PHẦN DỊCH VỤ GIA TĂNG MOBIFONE, 2, 2, 0, 2,"react, flutter, react native"
+CÔNG TY TNHH OPENWAY VIỆT NAM (OW), 12, 4, 0, 2,java
+CÔNG TY DỊCH VỤ MOBIFONE KHU VỰC 2, 1, 1, 0, 1,"react, flutter, vue, react native"
+CÔNG TY CỔ PHẦN EYEQ TECH, 1, 1, 0, 1,"nestjs, python, java, nodejs, javascript, mongodb"
+CÔNG TY TNHH GIẢI PHÁP PHẦN MỀM TƯỜNG MINH BÌNH ĐỊNH, 60, 20, 2, 14,
+CÔNG TY TNHH CÔNG NGHỆ KVY, 1, 1, 0, 1,"rails, ruby, html, css"
+CÔNG TY TNHH ALCHERA VIỆT NAM, 3, 3, 3, 0,python
+CÔNG TY CỔ PHẦN DEVSAMURAI VIỆT NAM, 5, 5, 0, 5,"typescript, java, aws, docker, react, nodejs, javascript"
+COMPREDEV SOLUTIONS COMPANY LIMITED, 1, 1, 0, 1,
+"PNH CO., LTD. (NHẬT BẢN)", 1, 1, 0, 1,"react, php, express"
+CÔNG TY TNHH APOLLOGIX (APLG), 18, 6, 0, 6,"java, aws, spring, react, postgresql, react native, flutter, sql"
 DHL GLOBAL FORWARDING (VIETNAM) COPORATION, 1, 1, 0, 1,
-CÔNG TY CỔ PHẦN TRUYỀN THÔNG ÁNH SÁNG, 1, 1, 0, 1,"flask, asp.net, python, .net, sql"
-CÔNG TY TNHH PASCALIA ASIA VIỆT NAM, 3, 3, 0, 3,"php, docker, nginx, laravel, aws, vue, sql, mysql"
-CÔNG TY CỔ PHẦN GOLDEN OWL SOLUTIONS, 12, 4, 2, 1,"php, ruby, flutter, rails, java"
-CÔNG TY TNHH ADSAGENCY VN, 2, 2, 0, 2,
-CÔNG TY TNHH CUBE SYSTEM VIỆT NAM (CS), 21, 7, 0, 3,"reactnative, react, javascript, .net, flutter, python, java, aws, vue"
-CÔNG TY TNHH CÔNG NGHỆ PEAK VIỆT NAM, 1, 1, 0, 1,"react, javascript, html, css, java, vue"
-CÔNG TY TNHH ỨNG DỤNG SÁNG TẠO (INNORIA), 21, 7, 0, 4,"python, java, mongodb, postgresql, sql"
-CÔNG TY CỔ PHẦN CÔNG NGHỆ DU LỊCH GOTADI, 1, 1, 0, 1,"javascript, typescript, java"
-CÔNG TY CỔ PHẦN GIẢI PHÁP CÔNG NGHỆ HTSC, 1, 1, 0, 1,"mongodb, .net, vue"
-CÔNG TY CỔ PHẦN ACCESSED VIỆT NAM, 120, 40, 3, 0,java
-CÔNG TY TNHH CÔNG NGHỆ PHẦN MỀM DAYONE, 6, 2, 1, 1,"python, react native, vue, react"
-CÔNG TY CỔ PHẦN MẮT BÃO, 1, 1, 0, 1,"nodejs, flask, php, docker, react, .net, python, express, java, mongodb, postgresql, vue, sql, mysql"
-CÔNG TY TNHH TENSOR, 4, 4, 0, 4,"docker, javascript, django, langchain, nextjs, python, java, fastapi, tensorflow"
-CÔNG TY CỔ PHẦN CÔNG NGHỆ STRANT AI, 1, 1, 0, 1,"react, javascript, java, python, express, tailwindcss, css, typescript, fastapi, postgresql, sql, tensorflow"
-CÔNG TY TNHH CÔNG NGHỆ PHẦN MỀM JAYACE, 1, 1, 0, 1,"nodejs, react, javascript, python, java, aws"
-A ONE MEMBER APPVITY SYSTEM VIET NAM COMPANY LIMITED, 1, 1, 0, 1,"javascript, azure, python, java"
-ITECHWX COMPANY LIMITED, 2, 2, 0, 2,azure
-CÔNG TY CỔ PHẦN GIẢI PHÁP TỔNG THỂ KỶ NGUYÊN SỐ, 27, 9, 2, 7,"tensorflow, react"
+CÔNG TY TNHH TẦM NHÌN CHUYÊN GIA, 6, 2, 1, 1,"typescript, angular, css, react, html"
+TRUNG TÂM CÔNG NGHỆ THÔNG TIN THÀNH PHỐ HUẾ (HUECIT), 2, 2, 0, 2,"dotnet, bootstrap, css, html, sql"
+CÔNG TY TNHH CÔNG NGHỆ PTCAD, 1, 1, 0, 1,"langchain, python"
+CÔNG TY CỔ PHẦN FINCORP - FINCORP JOINT STOCK COMPANY, 1, 1, 0, 1,"python, java, css, react, spring, html, javascript"
+CÔNG TY TNHH VIEROBOT, 12, 4, 0, 4,"javascript, java, vue"
+CÔNG TY TNHH PHẦN MỀM FPT HỒ CHÍ MINH - TẬP ĐOÀN FPT, 6, 2, 0, 2,python
+CÔNG TY CỔ PHẦN PHẦN MỀM HOÀN CẦU (GSOFT), 111, 37, 3, 13,"asp.net, keras, python, nginx, C#, angular, mysql, aws, azure, .net, tensorflow, sql"
+CÔNG TY TNHH M2 VIETNAM, 0, 1, 0, 1,"python, typescript, java, vue, react, nodejs, javascript, django"
+CÔNG TY TNHH LOGISTICS TECHHUB, 1, 1, 0, 1,"php, mysql, vue, laravel, sql"
+CÔNG TY TNHH TM & DV CÔNG NGHỆ XUÂN CƯỜNG, 1, 1, 0, 0,
+CÔNG TY TNHH TƯ VẤN VÀ PHÁT TRIỂN GIÁO DỤC INNEDU, 15, 5, 0, 2,"typescript, java, vue, sql, css, react, nextjs, postgresql, html, spring, javascript, mongodb"
+CÔNG TY TNHH CYBERLOGITEC VIET NAM, 1, 1, 0, 1,"javascript, java, sql"
+CÔNG TY CỔ PHẦN MIQUANT, 1, 1, 0, 1,"nestjs, prisma, python, vue, docker, css, react, nextjs, postgresql, nodejs, sql"
+HỘI SINH VIÊN VIỆT NAM TRƯỜNG ĐAI HỌC BÁCH KHOA (HỘI SINH VIÊN TRƯỜNG), 45, 15, 9, 8,"python, java, sql, postgresql, react, javascript, fastapi, express, langchain"
+SV TECHNOLOGIES JSC - CÔNG TY CỔ PHẦN PHÁT TRIỂN CÔNG NGHỆ VIỄN THÔNG TIN HỌC SUN VIỆT (SVTECH), 1, 1, 0, 1,"vue, sql"
+CÔNG TY CỔ PHẦN VNG, 1, 1, 0, 1,"typescript, java, css, react, spring, springboot, html, javascript, tailwindcss"
+CÔNG TY TNHH CODE LEAP, 1, 1, 0, 1,"typescript, angular, java, css, html, javascript"
+CÔNG TY TNHH BẢO HIỂM NHÂN THỌ DAI-ICHI VIỆT NAM, 39, 13, 3, 8,"react, java, spring"
+GREEN SOFTWARE TECHNOLOGY SERVICE COMPANY LIMITED, 1, 1, 0, 1,"mysql, sql, postgresql"
+VOCADO KITCHEN INC, 1, 1, 0, 1,"python, vue, sql, postgresql, react, nodejs, mongodb"
+CÔNG TY CỔ PHẦN HỆ SINH THÁI 365, 3, 3, 0, 3,"asp.net, python, C#, java, css, react, .net, javascript, tensorflow, huggingface"
+CÔNG TY TNHH AMPERE COMPUTING VIỆT NAM, 18, 6, 1, 2,"python, java, flask, javascript, django, sql"
+"AI POWER CO.,LTD", 4, 4, 0, 4,"python, golang, java, mysql, sql"
+CÔNG TY CỔ PHẦN COHOTA, 30, 10, 3, 9,"python, typescript, ruby, docker, jenkins, nodejs, ansible, rails"
+CÔNG TY CỔ PHẦN KHOA HỌC KỸ THUẬT PHƯỢNG HẢI, 12, 4, 0, 3,"flutter, vue, prometheus"
+TỔNG CÔNG TY CÔNG NGHIỆP CÔNG NGHỆ CAO VIETTEL (VIETTEL HIGH TECHNOLOGY INDUSTRIES CORPORATION), 1, 1, 0, 1,"express, python"
+BOSCH 2 - CÔNG TY TNHH BOSCH GLOBAL SOFTWARE TECHNOLOGIES, 1, 1, 0, 1,vue
+BOSCH - CÔNG TY TNHH BOSCH GLOBAL SOFTWARE TECHNOLOGIES, 2, 2, 0, 2,"php, C#, vue, css, react, .net, sql"
+HEINEKEN VIETNAM BREWERY LIMITED COMPANY, 1, 1, 0, 1,"typescript, C#, react, .net, sql"
+CÔNG TY TNHH GALAXYONE, 2, 2, 0, 2,python
+CÔNG TY CỔ PHẦN CÔNG NGHỆ IHOUZZ, 1, 1, 0, 1,"nestjs, typescript, angular, sql, postgresql, nuxt, nodejs, mongodb"
+CÔNG TY CỔ PHẦN ĐẦU TƯ THẾ GIỚI DI ĐỘNG, 30, 10, 5, 1,"asp.net, python, C#, java, react, .net, flutter, sql"
+INFINITE SOFTWARE COMPANY LIMITED, 1, 1, 0, 0,"nestjs, mongodb, typescript"
+CÔNG TY CỔ PHẦN CÔNG NGHỆ RIO VIỆT NAM, 1, 1, 0, 1,"javascript, java, vue, laravel"
+VIETTEL LONG AN – CHI NHÁNH TẬP ĐOÀN CÔNG NGHIỆP- VIỄN THÔNG QUÂN ĐỘI, 1, 1, 0, 1,"react, sql, css"
+CÔNG TY CP WOKA VIỆT NAM, 1, 1, 0, 1,"nestjs, typescript, java, nextjs, javascript, sql"
+CÔNG TY TNHH CMC GLOBAL, 1, 1, 0, 1,"bootstrap, ruby, vue, aws, docker, css, react, rails, prometheus"
+CÔNG TY TNHH CÔNG NGHỆ PEAK VIỆT NAM, 1, 1, 0, 1,"java, vue, css, react, html, javascript"
+CÔNG TY TNHH HỌC VIỆN UPSKILL, 2, 2, 0, 1,"javascript, python, C#, java, vue, sql, postgresql, react, spring, llama, express, mongodb"
+CÔNG TY TNHH HIỆP LỰC PHÁT TRIỂN VIỆT (SDVICO), 3, 3, 0, 3,"nestjs, vue, typeorm, typescript"
+CÔNG TY TNHH THƯƠNG MẠI VÀ DỊCH VỤ NINA, 60, 20, 2, 10,"php, bootstrap, java, vue, css, laravel, html, javascript"
+TẬP ĐOÀN CÔNG NGHIỆP - VIỄN THÔNG QUÂN ĐỘI (VIETTEL GROUP), 9, 9, 0, 9,"kubernetes, hadoop, docker, sql, spark"
+CÔNG TY CỔ PHẦN CÔNG NGHỆ GIGARION, 2, 2, 0, 2,python
+CÔNG TY TNHH MAYTECH, 1, 1, 0, 1,"spring, java, css"
+VNG - VERICHAINS - CÔNG TY CỔ PHẦN VNG - VERICHAINS, 1, 1, 0, 1,swift
+CÔNG TY CỔ PHẦN VIET DYNAMIC, 1, 1, 0, 1,"python, java, css, javascript, fastapi, express"
+CÔNG TY TNHH TẦM NHÌN SÁNG TẠO CÔNG NGHỆ, 1, 1, 0, 1,"python, java, css, react, html, javascript"
+DFM-ENGINEERING CORPORATION - CÔNG TY TNHH DWARVES FOUNDATION, 1, 1, 0, 1,vue
+CÔNG TY TNHH DATALOGIC VIỆT NAM, 12, 4, 0, 4,python
+CÔNG TY TNHH ỨNG DỤNG SÁNG TẠO (INNORIA), 21, 7, 0, 4,"python, java, sql, postgresql, mongodb"
+EXCELLENT NODES COMPANY LIMITED, 1, 1, 0, 1,"python, docker, react, express, mongodb"
+CÔNG TY CỔ PHẦN PHÁT TRIỂN KỸ THUẬT & THƯƠNG MẠI TÂN ĐỨC (TD&T), 1, 1, 0, 1,"php, java, mysql, css, react, laravel, html, nodejs, javascript, express, sql"
+CÔNG TY TNHH THƯƠNG MẠI DỊCH VỤ SẢN XUÂT ABC SOLUTIONS, 13, 13, 0, 13,"vue, aws, python, css"
+CÔNG TY TNHH MTI TECHNOLOGY (MTI TECHNOLOGY COMPANY LIMITED), 1, 1, 0, 1,"pandas, python, seaborn, numpy, matplotlib, sql"
+CÔNG TY CỔ PHẦN CÔNG NGHỆ GREENSOFT, 1, 1, 0, 1,"php, java, vue, css, html, javascript"
+HOLISTICS SOFTWARE (HS), 9, 3, 0, 2,"java, vue, ruby, postgresql, css, nodejs, html, javascript, sql"
+CÔNG TY TNHH ITECHWX (ITECHWX COMPANY LIMITED), 1, 1, 0, 1,"azure, python"
+CÔNG TY TNHH GAMELOFT, 0, 1, 0, 1,
+NUS TECHNOLOGY, 0, 5, 0, 5,"bootstrap, java, ruby, css, html, javascript, rails"
+"CHEMICAL TRADING VIETNAM CO., LTD.", 1, 1, 0, 1,
+CÔNG TY TNHH ITC GROUP, 3, 3, 0, 3,"javascript, java, nestjs"
+DHL SUPPLY CHAIN, 1, 1, 0, 1,"asp.net, C#, java, css, react, .net, javascript, sql"
+CÔNG TY AUTONOMOUS VIỆT NAM, 1, 1, 0, 0,
+CÔNG TY CỔ PHẦN SOFTZ, 6, 2, 1, 1,"java, vue, spring"
+CARPASSION.VN, 1, 1, 0, 1,
+CÔNG TY TNHH GIẢI PHÁP PHẦN MỀM TƯỜNG MINH (TMA SOLUTIONS), 300, 100, 11, 20,"react, java, css"
+CÔNG TY TNHH CH RESOURCE VIETNAM, 1, 1, 0, 1,"golang, python"
+HINNOVA JOINT STOCK COMPANY, 1, 1, 0, 1,"C#, angular, java, .net, sql"
+CÔNG TY CỔ PHẦN SÀI GÒN LAB, 1, 1, 0, 1,"javascript, java, nextjs, css"
+CÔNG TY TNHH E-CQURITY VIỆT NAM, 2, 2, 0, 2,"java, css, react, .net, html, javascript"
+CÔNG TY TNHH SORIMACHI VIỆT NAM (SRMC VN), 12, 4, 0, 4,"php, python, C#, angular, java, mysql, aws, react, .net, azure, react native, javascript, flutter, sql"
+CÔNG TY CỔ PHẦN TRIPHUNTER, 6, 2, 2, 1,python
+CÔNG TY TNHH PHẦN MỀM LIBRA (LIBRASOFT), 1, 1, 0, 1,"javascript, angular, java, nestjs"
+CÔNG TY TNHH KSYNERX VIETNAM, 2, 2, 0, 2,"python, java, react, javascript, fastapi"
+CÔNG TY TNHH CÔNG NGHỆ NỀN TẢNG BK, 2, 2, 0, 2,"flutter, nodejs, express"
+CÔNG TY TNHH MỘT THÀNH VIÊN PHÁT TRIỂN CÔNG NGHỆ CHUYÊN VIỆT, 27, 9, 0, 8,"java, vue, python, spring"
+CÔNG TY CỔ PHẦN THẨM MỸ VIỆN AURA, 1, 1, 0, 1,"nestjs, prisma, typescript, docker, css, react, nextjs, postgresql, sql"
+CÔNG TY TNHH TENSOR, 4, 4, 0, 4,"python, java, docker, nextjs, fastapi, javascript, django, tensorflow, langchain"
+CÔNG TY CỔ PHẦN GIẢI PHÁP DOANH NGHIỆP TOÀN CẦU, 1, 1, 0, 1,"javascript, java, react, sql"
+CÔNG TY CỔ PHẦN TGL SOLUTIONS, 1, 1, 0, 1,"typescript, C#, java, react, .net, javascript"
+CÔNG TY TNHH TENXOS, 1, 1, 0, 1,html
+CÔNG TY TNHH KINH DOANH VÀ CUNG CẤP GIẢI PHÁP CÔNG NGHỆ EYECODE, 60, 20, 0, 17,"python, typescript, vue, css, nextjs, django, tailwindcss"
+PHÒNG THÍ NGHIỆM NGHIÊN CỨU VỀ NƯỚC KHU VỰC CHÂU Á (CARE), 3, 1, 0, 1,"vue, python"
+CÔNG TY TNHH HORUSOFTACEAE, 36, 13, 0, 12,"python, typescript, java, css, react, spring, html, javascript"
+CÔNG TY TNHH SHARP MANUFACTURING VIETNAM, 1, 1, 0, 1,aws
+CÔNG TY CP DV TRỰC TUYẾN CỘNG ĐỒNG VIỆT, 1, 1, 0, 1,"typescript, java, vue, css, react, javascript"
+NGÂN HÀNG TMCP Á CHÂU, 1, 1, 0, 1,"llama, .net, langchain, python"
+CÔNG TY CỔ PHẦN VĂN HÓA GIÁO DỤC VIỆT MỸ, 1, 1, 0, 1,"php, mysql, sql"
+CÔNG TY CỔ PHẦN GIẢI PHÁP VTECH, 6, 2, 2, 0,"php, C#, java, vue, ruby"
+TRUNG TÂM CÔNG NGHỆ THÔNG TIN VÀ TRUYỀN THÔNG LONG AN, 1, 1, 0, 1,"java, vue, css, react, html, nodejs, javascript"
+CÔNG TY CỔ PHẦN TRUSTING SOCIAL, 1, 1, 0, 1,"pandas, python"
+CÔNG TY CỔ PHẦN GIẢI PHÁP BNK, 1, 1, 0, 1,"C#, .net"
+PHENOMICS LABORATORY, 2, 2, 0, 2,"javascript, java, python"
+CÔNG TY TNHH DỊCH VỤ GIAO NHẬN HÀNG HÓA THỜI GIAN, 1, 1, 0, 1,sql
+VIỄN THÔNG TP.HCM (VNPT.TPHCM) - TẬP ĐOÀN BƯU CHÍNH VIỄN THÔNG VIỆT NAM, 60, 20, 1, 16,"python, typescript, C#, angular, java, vue, css, spring, .net, html, javascript, fastapi, huggingface"
+CÔNG TY TNHH ĐIỆN TỬ TMTECH, 1, 1, 0, 1,"typescript, java, react, nextjs, javascript"
+CÔNG TY TNHH OSAS, 1, 1, 0, 1,"php, sql, python"
+CÔNG TY TNHH CÔNG NGHỆ HOA SƠN, 1, 1, 0, 1,
+CÔNG TY CỔ PHẦN PHÁT TRIỂN CÔNG NGHỆ VIỄN THÔNG TIN HỌC SUN VIỆT, 1, 1, 0, 1,"vue, sql"
+CÔNG TY TNHH SIEMENS HEALTHCARE (SM), 3, 1, 0, 1,css
+CÔNG TY CỔ PHẦN TEKCOM, 1, 1, 0, 1,"python, java, mysql, react, javascript, express, sql"
+CÔNG TY TNHH THƯƠNG MẠI DỊCH VỤ ĐẦU TƯ KT BẰNG HỮU, 1, 1, 0, 1,"angular, java, vue, spring, react, springboot, nodejs, javascript, mongodb"
+RISENS GROUP JOINT STOCK COMPANY, 1, 1, 0, 1,"react, java, sql, mysql"
+CÔNG TY TNHH GGJUNGLE, 1, 1, 0, 1,"java, vue, aws, css, react, html, javascript"
+CÔNG TY TNHH THƯƠNG MẠI DỊCH VỤ SÀI GÒN XUÂN PHÁT, 1, 1, 0, 1,"asp.net, C#, java, css, react, .net, javascript, sql, tailwindcss"
+CÔNG TY TNHH EAMGROUP, 1, 1, 0, 1,
+CÔNG TY CỔ PHẦN THƯƠNG MẠI DỊCH VỤ SATY, 36, 12, 0, 12,vue
+CÔNG TY CỔ PHẦN TÉP BẠC, 1, 1, 0, 1,vue
+CÔNG TY TNHH SOLUTION MINDED AGENCY, 1, 1, 0, 1,python
+CÔNG TY CỔ PHẦN AGRI SUNG, 2, 2, 0, 2,"react, css"
+CÔNG TY CỔ PHẦN CÔNG NGHỆ SWANTECH (ST), 1, 1, 0, 1,"java, mysql, sql, css, react, nextjs, postgresql, html, javascript, express, mongodb"
+CÔNG TY TNHH CÔNG NGHỆ & DỊCH VỤ BEONE, 9, 4, 1, 4,"nestjs, typescript, aws, docker, react, nodejs"
+CÔNG TY TNHH THẾ GIỚI WEB VIỆT, 1, 1, 0, 1,"keras, bootstrap, python, java, css, flask, .net, html, javascript"
+CÔNG TY TNHH GIẢI PHÁP PHẦN MỀM NEXTWAVES, 1, 1, 0, 1,"nodejs, aws, express"
+CÔNG TY TNHH HỆ THỐNG PHẦN MỀM VIỆT TIN, 15, 5, 0, 2,"vue, sql, python"
+CÔNG TY CỔ PHẦN AN NINH MẠNG THD, 2, 2, 0, 2,"nestjs, php, kubernetes, nginx, java, vue, docker, javascript, sql"
+CÔNG TY TNHH TƯ VẤN THIẾT KẾ PHẦN MỀM CÁNH CAM, 2, 2, 0, 2,"php, html, css"
+SORIMACHI - NHẬT BẢN (SRMC JP), 2, 2, 0, 2,
+TANCA 1 - CÔNG TY CP ỨNG DỤNG DI ĐỘNG XANH, 1, 1, 0, 1,"golang, mongodb, docker, css"
+"CÔNG TY CỔ PHẦN CÔNG NGHỆ ISOFH - ISOFH, JSC. – VĂN PHÒNG ĐẠI DIỆN PHÍA NAM", 1, 1, 0, 1,"python, java, nodejs, javascript, sql"
+CÔNG TY TNHH ROCKSHIP (RS), 12, 4, 0, 4,"python, golang, vue, docker, css, react, nextjs, html, nodejs, llama, langchain"
 CÔNG TY TNHH CÔNG NGHỆ CLOUDGO, 1, 1, 0, 1,"php, css"
+"BOSCH 3 - ROBERT BOSCH ENGINEERING & BUSINESS SOLUTIONS VN CO., LTD.", 1, 1, 0, 1,"llama, docker, python"
+CÔNG TY CỔ PHẦN FINT VIỆT NAM, 1, 1, 0, 1,"bootstrap, java, vue, mysql, css, react, html, javascript, sql"
+CÔNG TY CP NDS VIỆT NAM, 1, 1, 0, 1,"dotnet, C#, angular, java, docker, javascript"
+CÔNG TY CỔ PHẦN CÔNG NGHỆ SÀI GÒN MIO, 2, 2, 0, 2,"C#, .net, asp.net"
+A ONE MEMBER APPVITY SYSTEM VIET NAM COMPANY LIMITED, 1, 1, 0, 1,"javascript, java, azure, python"
+ITECHWX COMPANY LIMITED, 2, 2, 0, 2,azure
+KHOA CÔNG NGHỆ THÔNG TIN - TRƯỜNG CAO ĐẲNG KỸ THUẬT CAO THẮNG, 1, 1, 0, 1,"java, mysql, react, nodejs, javascript, express, sql"
+CÔNG TY TNHH PHẦN MỀM OPSWAT VIỆT NAM (GỌI TẮT OPSWAT VN), 2, 2, 0, 2,
+CÔNG TY CỔ PHẦN NIXXIS VIETNAM, 6, 2, 0, 2,"python, angular, java, vue, react, .net, javascript"
+CÔNG TY CP DỊCH VỤ - DỮ LIỆU CÔNG NGHỆ THÔNG TIN VI NA (VNG CLOUD), 1, 1, 0, 1,"langchain, python"
+CÔNG TY TNHH ĐẦU TƯ GIÁO DỤC QUỐC TẾ ENGONOW, 30, 10, 1, 6,"nestjs, keras, python, typescript, vue, css, nextjs, django, tensorflow, sql"
+CÔNG TY CÔNG TY CỔ PHẦN GIẢI PHÁP CÔNG NGHỆ LIÊN KẾT TOÀN CẦU, 1, 1, 0, 1,"javascript, java, react native, react"
+CÔNG TY TNHH ĐẦU TƯ VÀ PHÁT TRIỂN THƯƠNG HIỆU QUỐC GIA, 1, 1, 0, 1,"nestjs, vue, css, react, sql"
+CÔNG TY TNHH CÔNG NGHỆ THÔNG TIN AUREOLE, 0, 2, 0, 2,"nestjs, python, angular, java, vue, mysql, sql, postgresql, react, .net, react native, javascript, mongodb"
+CÔNG TY CỔ PHẦN CÔNG NGHỆ DU LỊCH GOTADI, 1, 1, 0, 1,"javascript, java, typescript"
+CÔNG TY CP ĐIỆN TỬ VIỄN THÔNG ÁNH DƯƠNG (ADSUN JSC), 1, 1, 0, 1,"C#, .net, sql"
+CÔNG TY TNHH TECALLIANCE VIỆT NAM (TA), 6, 2, 0, 1,"python, C#, angular, java, aws, azure, .net, javascript"
+"BOSCH 6 - BRANCH OF BOSCH VIETNAM CO.,LTD IN HO CHI MINH CITY", 1, 1, 0, 1,"react, C#, vue"
+CÔNG TY CỔ PHẦN SMARTPETRO VIỆT NAM, 1, 1, 0, 1,"asp.net, python, typescript, C#, angular, java, vue, postgresql, .net, javascript, sql"
+CÔNG TY TNHH SIGLAZ VIỆT NAM (SIGLAZVN LTD.), 12, 4, 0, 4,flutter
+CÔNG TY TNHH QUESTX, 5, 5, 0, 5,"javascript, java, html, css"
+CÔNG TY TNHH LAZTAR, 36, 12, 0, 1,"nestjs, typescript, css, react, nextjs, .net, react native"
+CÔNG TY CỔ PHẦN CBTECH, 1, 1, 0, 1,"java, vue, css, react, spring, html, javascript"
+CÔNG TY TNHH WISHARE, 2, 2, 0, 1,"php, mysql, css, react, sql"
+NGÂN HÀNG TMCP SÀI GÒN THƯƠNG TÍN - SACOMBANK, 1, 1, 0, 1,python
+CÔNG TY TNHH SENSE (SS), 1, 1, 0, 1,"java, css, react, html, nodejs, javascript, express, mongodb"
+TỔNG CÔNG TY GIẢI PHÁP DOANH NGHIỆP VIETTEL – CHI NHÁNH TẬP ĐOÀN CÔNG NGHIỆP – VIỄN THÔNG QUÂN ĐỘI, 1, 1, 0, 0,"bootstrap, java, mysql, dart, kotlin, react, flutter, sql"
+CÔNG TY TNHH RAINSCALES VIỆT NAM, 1, 1, 0, 1,"vue, python"
+CÔNG TY TNHH HỆ THỐNG THÔNG TIN FPT (FIS), 1, 1, 0, 1,"angular, java, css, react, javascript, tailwindcss"
+CÔNG TY CỔ PHẦN CÔNG NGHỆ TIÊN PHÁT, 1, 1, 0, 1,"java, vue, aws, css, react, javascript"
+STAR GLOBAL EXPERT SOLUTIONS JOINT STOCK COMPANY, 2, 2, 0, 2,"javascript, java, python"
+CÔNG TY CỔ PHẦN CÔNG NGHỆ VÀ ỨNG DỤNG DSV (DESIGNVELOPER), 60, 20, 6, 5,"java, vue, react, nodejs, javascript, mongodb"
+CÔNG TY CỔ PHẦN GIẢI TRÍ VÀ THỂ THAO ĐIỆN TỬ VIỆT NAM, 9, 3, 4, 0,"javascript, java, python"
+CÔNG TY TNHH THƯƠNG MẠI KỸ THUẬT LẠNH KHANG PHÁT, 150, 50, 0, 1,python
+CÔNG TY TNHH BIOTURING VIỆT NAM, 15, 5, 2, 4,python
+ODH TECHNOLOGY COMPANY LIMITED, 2, 2, 0, 2,"flutter, vue"
+CÔNG TY TNHH TMDV VÀ GIẢI PHÁP SÀI GÒN (SGS), 1, 1, 0, 1,"php, java, css, html, javascript"
+CÔNG TY TNHH KYONS, 1, 1, 0, 1,"openai, langchain, python"
+CÔNG TY TNHH DỊCH VỤ SECOM, 1, 1, 0, 1,"react, nodejs, express, typescript"
+CÔNG TY TNHH TANAAKK VIỆT NAM, 1, 1, 0, 1,
+CÔNG TY TNHH TM CÔNG NGHỆ GLINKS, 1, 1, 0, 1,docker
+CÔNG TY TNHH BOS SEMICONDUCTORS VIETNAM, 30, 10, 2, 2,
+CÔNG TY TNHH MABUCHI MOTOR VIỆT NAM, 1, 1, 0, 1,"keras, pandas, python, numpy, css, tensorflow"
+VINOVA PTE. LTD., 1, 1, 0, 1,"javascript, java, python, css"
+CÔNG TY CỔ PHẦN GIẢI PHÁP CHUỖI CUNG ỨNG SMARTLOG, 1, 1, 0, 1,"C#, angular, java, vue, javascript, sql"
+CÔNG TY CỔ PHẦN KỸ THUẬT ĐIỆN TOÁN BÁCH KHOA, 39, 13, 1, 13,"nestjs, php, typeorm, typescript, vue, docker, css, react, postgresql, openai, langchain, sql"
+CÔNG TY TNHH TMDV ORCO – O(LOG N), 2, 2, 0, 2,"java, css"
+CÔNG TY CỔ PHẦN CÔNG NGHỆ STRANT AI, 1, 1, 0, 1,"tensorflow, python, typescript, java, css, react, postgresql, javascript, fastapi, express, sql, tailwindcss"
+TNS - NHẬT BẢN, 1, 1, 0, 1,flutter
+CÔNG TY CỔ PHẦN JK TECHNOLOGIES VIETNAM, 9, 3, 0, 3,"nextjs, html, css, typescript"
+CÔNG TY CỔ PHẦN GOLDEN OWL SOLUTIONS, 12, 4, 2, 1,"php, java, ruby, rails, flutter"
+TRUNG TÂM AN TOÀN THÔNG TIN VNPT - CHI NHÁNH CÔNG TY CÔNG NGHỆ THÔNG TIN VNPT (VNPT-CI), 1, 1, 0, 1,"php, python, java, vue, .net, sql"
+CẢNG HÀNG KHÔNG QUỐC TẾ TÂN SƠN NHẤT – CHI NHÁNH TỔNG CÔNG TY CẢNG HÀNG KHÔNG VIỆT NAM - CTCP, 1, 1, 0, 1,"react, html, css"
+CÔNG TY CỔ PHẦN ECARAID, 1, 1, 0, 1,"php, java, mysql, sql, react, laravel, javascript, reactnative"
+CÔNG TY CỔ PHẦN CÔNG NGHỆ TITAN - TITAN TECHNOLOGY CORPORATION, 1, 1, 0, 1,"pandas, python, numpy, java, docker, postgresql, react, javascript, django, sql"
+CÔNG TY CỔ PHẦN GIẢI PHÁP PHẦN MỀM TÀI CHÍNH, 1, 1, 0, 1,"javascript, java, nodejs, react"
+CÔNG TY CỔ PHẦN TIN HỌC MI MI, 1, 1, 0, 1,"php, python"
+ĐẠI HỌC CHIẾT GIANG - TRUNG QUỐC, 3, 3, 0, 3,python
+CÔNG TY CỔ PHẦN HITEK SOLUTION, 1, 1, 1, 0,"django, nodejs, python"
+CTY CP VẬN TẢI VÀ THUÊ TÀU BIỂN VIỆT NAM – CHI NHÁNH TRUNG TÂM E-LOGISTIC VÀ CÔNG NGHỆ THÔNG TIN HÀNG HẢI VIỆT XANH (VIET GREEN CENTER), 1, 1, 0, 1,python
+CÔNG TY TNHH NOBIWARE, 12, 4, 0, 4,"asp.net, python, typescript, C#, vue, aws, react, .net, azure, langchain"
+INDUSTRIAL EMBEDDED SOLUTIONS COMPANY LIMITED, 1, 1, 0, 0,"aws, css"
+CÔNG TY CỔ PHẦN ĐẦU TƯ CÔNG NGHỆ VÀ PHÁT TRIỂN GIÁO DỤC SÀI GÒN - MAKE TOMORROW GREAT, 9, 3, 2, 1,"java, css"
+CÔNG TY CP CÔNG NGHỆ TRƯỜNG MINH THỊNH, 1, 1, 1, 0,"asp.net, C#, angular, java, vue, css, .net, html, javascript"
+CÔNG TY CỔ PHẦN CÔNG NGHỆ CXVIEW, 1, 1, 0, 1,"fastapi, docker, python"
+CÔNG TY CỔ PHẦN DỊCH VỤ GIẢI PHÁP MẠNG INETSEN, 1, 1, 0, 1,
+CÔNG TY TNHH THƯƠNG MẠI VÀ DỊCH VỤ ZOMZEM, 1, 1, 0, 1,"python, typescript, java, nodejs, javascript"
+CÔNG TY TNHH KYANON DIGITAL, 2, 2, 0, 2,vue
+CÔNG TY CỔ PHẦN GIẢI PHÁP CNTT TÂN CẢNG, 1, 1, 1, 0,C#
+CTY TNHH TM-DV TIN HỌC HÙNG DŨNG, 1, 1, 0, 1,
+CÔNG TY TNHH CÔNG NGHỆ HYBRID SOLUTIONS VN, 1, 1, 0, 1,"tensorflow, html, python, css"
+CÔNG TY CỔ PHẦN MINIAI, 1, 1, 0, 1,"typescript, java, nodejs, javascript, express"
+CÔNG TY TNHH SẢN XUẤT – THƯƠNG MẠI – DỊCH VỤ ĐIỆN TỬ LOTUS VIỆT NAM, 20, 20, 0, 18,css
+"MOBIUS CO., LTD. (NHẬT BẢN)", 2, 2, 0, 2,
+SKYLINK TECHNOLOGY, 1, 1, 0, 1,"typescript, docker, sql, postgresql, mongodb"
+TECHTRONIC INDUSTRIES VIETNAM, 1, 1, 0, 1,"hadoop, pandas, python, C#, java, aws, postgresql, azure, express, sql, spark"
+CÔNG TY HƯỚNG NGHIỆP DỮ LIỆU, 15, 5, 0, 2,"python, nginx, docker, css, flutter, .net, nodejs, fastapi"
+CÔNG TY TNHH MATSUSAKA EDP CENTER INFOTECH VIỆT NAM, 6, 2, 0, 2,"django, html, python"
+"RENESAS DESIGN VIETNAM CO., LTD.", 15, 5, 1, 5,
+CÔNG TY TNHH CODELIGHT, 1, 1, 0, 1,"nestjs, nodejs, typescript"
+WALA-ICT, 1, 1, 0, 1,"nestjs, typescript, java, css, javascript"
+CÔNG TY TNHH ADSAGENCY VN, 2, 2, 0, 2,
+CÔNG TY TNHH ATWARE VIỆT NAM, 1, 1, 0, 1,"java, aws, spring, react, terraform, springboot, nodejs"
+CÔNG TY TNHH BUBOBOT, 2, 2, 0, 2,"nestjs, vue, typeorm, typescript"
+CÔNG TY TNHH DOCUMENT EASY, 60, 20, 0, 8,"nestjs, typescript, java, vue, dart, docker, sql, css, react, nextjs, postgresql, .net, javascript, flutter, mongodb, tailwindcss"
+CÔNG TY TNHH R&I LABS, 30, 10, 6, 2,"python, java, vue, javascript, sql"
+CÔNG TY TNHH RAKSUL VIỆT NAM, 1, 1, 0, 1,"ruby, vue, mysql, css, nuxt, nodejs, sql"
+CÔNG TY TNHH SẢN XUẤT- THƯƠNG MẠI - TRANG THIẾT BỊ Y TẾ PHAN ANH, 1, 1, 0, 1,"php, bootstrap, java, mysql, laravel, javascript, sql"
+CÔNG TY TNHH T4 TEK, 15, 7, 0, 7,"nestjs, python, typescript, C#, java, css, nextjs, html, javascript"
+CÔNG TY TNHH UGOTECHS, 30, 10, 6, 0,"asp.net, C#, java, react, .net, javascript"
+BAN CÔNG NGHỆ THÔNG TIN – BÁO TUỔI TRẺ, 1, 1, 0, 1,"javascript, java, react, docker"
+CÔNG TY TNHH THƯƠNG MẠI - DỊCH VỤ PHƯƠNG QUÂN, 30, 10, 1, 4,"react, python, vue, nodejs"
+ITBEE SOLUTIONS, 1, 1, 0, 1,"php, python, mysql, sql, postgresql, mongodb"
+CÔNG TY CỔ PHẦN CÔNG NGHỆ APPS CYCLONE (CÔNG TY TNHH GIẢI PHÁP DI ĐỘNG ỨNG DỤNG LỐC XOÁY), 30, 10, 3, 2,"php, mysql, docker, css, laravel, sql"
+TẬP ĐOÀN CÔNG NGHIỆP – VIỄN THÔNG QUÂN ĐỘI, 1, 1, 0, 0,"hadoop, python, docker, sql, spark"
+CÔNG TY CỔ PHẦN EXCEL TECHNOLOGIES, 1, 1, 0, 1,"javascript, java, kubernetes, nestjs"
+CÔNG TY TNHH HỆ THỐNG THÔNG TIN ĐẠI DƯƠNG MỚI - CÔNG TY NEW OCEAN INFORMATION SYSTEM (NOIS), 5, 15, 1, 1,"php, fastapi, python, flask"
+NAB INNOVATION CENTRE VIETNAM - NATIONAL AUSTRALIA BANK LIMITED, 2, 2, 0, 2,java
+CÔNG TY TNHH CUBE SYSTEM VIỆT NAM (CS), 21, 7, 0, 3,"python, java, vue, aws, react, .net, javascript, flutter, reactnative"
+CÔNG TY TNHH IO STREAM, 1, 1, 0, 1,
+CÔNG TY CỔ PHẦN CHIP, 1, 1, 0, 1,"javascript, java, nodejs"
+FTE 1 - CHI NHÁNH CÔNG TY CỔ PHẦN VIỄN THÔNG FPT, 1, 1, 0, 1,express
+CÔNG TY CỔ PHẦN TRUYỀN THÔNG ÁNH SÁNG, 1, 1, 0, 1,"asp.net, python, C#, flask, .net, sql"
+CÔNG TY TNHH TC DATA, 1, 1, 0, 1,"azure, aws, sql, python"
+"ZIGEXN VENTURA CO., LTD.", 30, 10, 0, 3,"java, ruby, mysql, css, html, javascript, rails, sql"
+"CHI NHÁNH CÔNG TY TNHH PHẦN MỀM FPT HỒ CHÍ MINH TẠI NHA TRANG, TẬP ĐOÀN FPT", 60, 20, 0, 12,"react, java, springboot, spring"
+CÔNG TY TNHH ADVANCE VISION TECHNOLOGY VIỆT NAM, 1, 1, 0, 1,aws
+CÔNG TY TNHH MTV DỊCH VỤ CÔNG ÍCH QUẬN 6, 1, 1, 0, 1,"java, css, react, html, nodejs, javascript, express, mongodb"
+CÔNG TY TNHH CÔNG NGHỆ MARVELL VN, 45, 15, 0, 5,python
+CÔNG TY TNHH ĐIỆN SÀI GÒN, 1, 1, 0, 1,
+CÔNG TY CỔ PHẦN PHẦN MỀM SHPT, 1, 1, 0, 1,"asp.net, bootstrap, C#, java, react, .net, javascript, sql"
+CÔNG TY TNHH THƯƠNG MẠI DỊCH VỤ VGS, 12, 4, 0, 4,C#
+CÔNG TY TNHH KIẾN TRÚC & XÂY DỰNG C&D VINA, 1, 1, 0, 1,"nestjs, prisma, typescript, postgresql, nextjs, css, sql"
+BOSCH 5 - CÔNG TY TNHH BOSCH GLOBAL SOFTWARE TECHNOLOGIES, 2, 2, 0, 2,"jenkins, python"
+BOSCH 4 - CÔNG TY TNHH ROBERT BOSCH ENGINEERING AND BUSINESS SOLUTIONS VIỆT NAM, 2, 2, 0, 2,
+CÔNG TY TNHH TƯ VẤN XÂY DỰNG HƯNG NGHIỆP, 3, 3, 1, 3,"php, java, mysql, css, html, javascript, sql"
+CÔNG TY CỔ PHẦN R2S, 30, 10, 8, 3,"java, flutter"
+CÔNG TY TNHH CÔNG NGHỆ PHẦN MỀM DAYONE, 6, 2, 1, 1,"react, vue, react native, python"
+CÔNG TY CỔ PHẦN EPLUS RESEARCH, 1, 1, 0, 1,vue
+"GRAPHICSMINER LAB, HOCHIMINH CITY, VIETNAM", 2, 2, 0, 2,"android studio, kubernetes, pandas, python, numpy, java, vue, onnx, docker, matplotlib, tensorflow"
+CÔNG TY CỔ PHẦN ZEN STUDIO, 1, 1, 0, 1,java
+CÔNG TY TNHH THƯƠNG MẠI DỊCH VỤ KỸ THUẬT BẢO NGHI, 1, 1, 0, 1,"C#, tensorflow, python"
+CÔNG TY TNHH THE KAS, 2, 2, 0, 2,"typescript, java, css, react, javascript, tailwindcss"
+CÔNG TY TNHH MTV PHƯƠNG ĐÔNG LINH HOẠT VIỆT NAM (EAST AGILE - EA), 9, 3, 0, 2,"python, ruby, rails, react, django"
+CÔNG TY CỔ PHẦN ONEMEDIC, 1, 1, 0, 1,"numpy, pandas, python, css"
+CÔNG TY TNHH NC9 VIỆT NAM, 1, 1, 0, 1,"php, bootstrap, mysql, css, .net, html, sql"
+CÔNG TY CỔ PHẦN HỆ THỐNG THÔNG MINH VIETTECH, 1, 1, 0, 1,java
+CÔNG TY TNHH NHÀ IELTS, 1, 1, 0, 0,"python, java, css, react, nextjs, javascript, mongodb"
+CÔNG TY CỔ PHẦN CÔNG NGHỆ GEEK UP, 0, 2, 0, 2,"nestjs, typescript, docker, react, nodejs"
+CÔNG TY TNHH BẾP XUYÊN VIỆT, 9, 3, 1, 1,"typescript, mysql, postgresql, react, nextjs, openai, langchain, sql"
+CHI NHÁNH CÔNG TY TNHH FPT IS TẠI THÀNH PHỐ HỒ CHÍ MINH, 3, 3, 3, 2,"bootstrap, java, vue, css, react, spring, html, javascript, sql"
+CÔNG TY TNHH CÔNG NGHỆ PHẦN MỀM JAYACE, 1, 1, 0, 1,"python, java, aws, react, nodejs, javascript"
+CÔNG TY CỔ PHẦN GCALLS, 36, 12, 0, 12,"javascript, java, vue, python"
+CÔNG TY TNHH PHẦN MỀM ITC, 1, 1, 0, 1,"nestjs, typescript, sql, postgresql, css, mongodb"
+CÔNG TY CỔ PHẦN MẮT BÃO, 1, 1, 0, 1,"php, python, java, vue, mysql, docker, sql, flask, react, postgresql, .net, nodejs, express, mongodb"
+CÔNG TY CỔ PHẦN DGV DIGITAL, 1, 1, 0, 1,"python, java, css, react, html, javascript, fastapi, sql"
+BOSCH 1 - BOSCH GLOBAL SOFTWARE TECHNOLOGIES COMPANY LIMITED (BGSW), 1, 1, 0, 1,python
+CÔNG TY TNHH NOVENTIQ VIỆT NAM, 2, 2, 0, 2,azure
+CÔNG TY TNHH DỊCH VỤ GIẢI PHÁP MÊ KÔNG (GỌI TẮT LÀ MKS), 2, 2, 0, 2,"java, python, spring"
+CÔNG TY CỔ PHẦN TRUSTING SOCIAL, 3, 3, 0, 3,"azure, fastapi, vue, python"
+CÔNG TY TNHH CÔNG NGHỆ PHẦN MỀM DUDI, 1, 1, 0, 1,"java, css, react, javascript, express, tailwindcss"
+OHSTEM EDUCATION (THUỘC CTY TNHH CÔNG NGHỆ GIÁO DỤC ADT), 5, 5, 0, 5,"android studio, python, dart, flutter, tensorflow"
+CÔNG TY CỔ PHẦN DỊCH VỤ DI ĐỘNG TRỰC TUYẾN (M_SERVICE) – VÍ MOMO, 2, 2, 0, 2,"llama, vue, python"
+CÔNG TY CỔ PHẦN PHYGITAL LABS, 1, 1, 0, 1,"javascript, java, css"
+CÔNG TY CỔ PHẦN CÔNG NGHỆ TASKCOVER, 1, 1, 0, 1,"javascript, java, nodejs, react"
+CÔNG TY TNHH THIẾT KẾ LẬP PHƯƠNG, 1, 1, 0, 1,"php, langchain, python"
+CÔNG TY TNHH LẬP TRÌNH & CÔNG NGHỆ CYBERSOFT, 18, 6, 0, 2,"pandas, python, seaborn, numpy, mysql, java, html, matplotlib, sql"
+CTY CP CÔNG NGHỆ GIẢI PHÁP THI THIÊN, 2, 2, 0, 2,
+CÔNG TY TNHH AMAZON WEB SERVICES VIỆT NAM, 2, 2, 0, 2,"graphql, aws"
+NGÂN HÀNG TMCP PHÁT TRIỂN TPHCM, 1, 1, 0, 1,"vue, sql"
+CÔNG TY TNHH WORLDON (VIỆT NAM), 1, 1, 0, 1,php
+TỔNG CÔNG TY CỔ PHẦN BẢO HIỂM TOÀN CẦU (GIC), 1, 1, 0, 0,"C#, .net, asp.net"
+REVOBRICKS LLC (RVB), 18, 6, 0, 6,
+CÔNG TY TNHH PHẦN MỀM DSOFT, 1, 1, 0, 1,"angular, css, .net, sql, tailwindcss"
+CÔNG TY TNHH CLOUDJET SOLUTIONS, 2, 2, 0, 2,"python, typescript, docker, postgresql, django, sql"
+CÔNG TY CP CÔNG NGHỆ SIGINX, 51, 17, 0, 15,"angular, java, vue, react, nodejs, javascript"
+CÔNG TY CP DIGITALLINK TECHNOLOGY SOLUTIONS, 12, 12, 0, 11,vue
+CÔNG TY TNHH TMDV THIẾT BỊ GIA NGHI, 1, 1, 1, 0,"nestjs, typescript, java, react, nextjs, javascript"
+CÔNG TY CỔ PHẦN S3, 2, 2, 0, 2,"golang, vue, sql"
+CÔNG TY CP DỊCH VỤ CÔNG NGHỆ THÔNG TIN TRÍ VIỆT, 1, 1, 0, 1,"ruby, python, css"
+CÔNG TY TNHH PHẦN MỀM FPT MIỀN TRUNG - TẬP ĐOÀN FPT, 1, 1, 0, 1,"javascript, java, python"
+CÔNG TY TNHH CÔNG NGHỆ SUỐI XANH (GREEN STREAM), 2, 2, 0, 2,"python, css"
+NGÂN HÀNG TMCP ĐẦU TƯ & PHÁT TRIỂN VIỆT NAM (BIDV) – CN TÂY SÀI GÒN, 1, 1, 0, 1,"javascript, java, html, sql"
+CÔNG TY TNHH TRƯỜNG PHƯỚC LONG AN, 1, 1, 0, 1,"javascript, java, sql"
+CÔNG TY TNHH CÔNG NGHỆ PAX VIỆT NAM, 1, 1, 0, 1,"java, css"
+ĐẠI HỌC Y KHOA ĐÀI BẮC (TAIPEI MEDICAL UNIVERSITY), 1, 1, 0, 1,"tensorflow, keras, vue, python"
+CÔNG TY TNHH GIẢI PHÁP CLOUD NINE (CN), 9, 3, 0, 3,php
+JMACSOFT CORP. (NHẬT BẢN), 2, 2, 0, 2,"C#, aws, css"
+CÔNG TY TNHH THIẾT KẾ MINH THÔNG, 1, 1, 0, 1,"react, java, python, typescript"
+CÔNG TY CP ỨNG DỤNG DI ĐỘNG XANH, 3, 3, 0, 3,"php, bootstrap, css, react, laravel, html"
+CÔNG TY CỔ PHẦN VIỄN THÔNG FPT (FPT TELECOM), 2, 2, 0, 2,"pandas, python, numpy, onnx, flask, matplotlib, fastapi, tensorflow"
+CÔNG TY TNHH MỘT THÀNH VIÊN CÔNG NGHỆ PRIME - LABO, 15, 5, 1, 3,"openai, vue, python"
+CÔNG TY TNHH BTM GLOBAL CONSULTING VIỆT NAM, 1, 1, 0, 1,"java, sql, spring"
+CÔNG TY TNHH MTV DƯƠNG HOÀNG HOA, 1, 1, 0, 0,"python, angular, java, vue, css, react, html, javascript"
+CÔNG TY CỔ PHẦN GIẢI PHÁP TỔNG THỂ KỶ NGUYÊN SỐ, 27, 9, 2, 7,"react, tensorflow"
+CÔNG TY TNHH PHÁT TRIỂN CÔNG NGHỆ TRƯỜNG THỊNH GROUP, 1, 1, 0, 1,
+CÔNG TY TNHH KIM KHÍ A-P-H, 1, 1, 0, 1,python
+TỔNG CÔNG TY CỔ PHẦN DỊCH VỤ KỸ THUẬT DẦU KHÍ VIỆT NAM, 1, 1, 0, 0,"bootstrap, python, typescript, C#, java, flask, react, .net, javascript, express"
+CÔNG TY CỔ PHẦN PHÂN BÓN DẦU KHÍ CÀ MAU (PVCFC), 1, 1, 0, 1,"grafana, java, vue, docker, css, jenkins, javascript, prometheus"
