@@ -23,24 +23,17 @@ Also install:
 
 ## 🚀 How to use
 
-1. Run the downloader:
+1. Run:
 
 ```bash
-python src/downloadPDF.py
+python src/main.py
 ```
-
-2. Then run the OCR analyzer:
-
-```bash
-python src/OCR_Reading.py
-```
-
 ---
 
 ## 📂 Output
 
 * All PDFs are saved in `downloads/`
-* A `result_ocr.csv` file is generated with:
+* A `result_combined.csv` file is generated with:
 
   * Company name
   * Detected programming languages/frameworks

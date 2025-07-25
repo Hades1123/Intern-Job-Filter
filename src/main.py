@@ -1,18 +1,18 @@
 from playwright.sync_api import sync_playwright
-import os
 import time
 from pathlib import Path
 from pdf2image import convert_from_path
 import pytesseract
 import pandas as pd
 from unidecode import unidecode
+from docx import Document
 
 pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
 base_dir = Path(__file__).resolve().parent.parent
 downloads_dir = base_dir / "downloads"
 downloads_dir.mkdir(exist_ok=True)
 
-company_do_not_have_pdf = []
+company_do_not_have_pdf_docx = []
 company_quantity = 0
 
 keywords = [    
@@ -60,6 +60,8 @@ keywords = [
     "docker",
     ".net",
     "asp.net",
+    "C#",
+    "spring",
 
     # mobile
     "flutter",
@@ -154,6 +156,7 @@ with sync_playwright() as p:
             # Tìm và tải các PDF
             links = page.query_selector_all("div.about-course a")
             pdf_found = False
+            all_found_keywords = set()
 
             for index, link in enumerate(links):
                 text = link.inner_text()
@@ -177,36 +180,75 @@ with sync_playwright() as p:
                         for image in images:
                             text += pytesseract.image_to_string(image)
                         
-                        found = []
                         for kw in keywords:
                             if kw.lower() in text.lower():
-                                found.append(kw)
+                                all_found_keywords.add(kw)
                         
-                        company_data["Ngôn ngữ / Framework"] = ", ".join(found)
-                        print(f"🧠 Found keywords: {found}")
+                        print(f"🔎 Found keywords in {pdf_path.name}: {list(all_found_keywords)}")
+
                     except Exception as e:
                         print(f"❌ OCR Error: {e}")
                         company_data["Ngôn ngữ / Framework"] = "OCR error"
             
-            if not pdf_found:
-                print(f"⚠️ No PDF found for {title_text}")
-                company_data["Ngôn ngữ / Framework"] = "No pdf found"
-                company_do_not_have_pdf.append(title_text)
-            else:
+            if pdf_found:
+                company_data["Ngôn ngữ / Framework"] = ", ".join(all_found_keywords)
+                print(f"🧠 All keywords found: {list(all_found_keywords)}")
+                results.append(company_data)
                 company_quantity += 1
-            
-            results.append(company_data)
-            
+            else:
+                print(f"⚠️ No PDF found for {title_text}, checking for DOCX...")
+                docx_found = False
+                for index, link in enumerate(links):
+                    text = link.inner_text()
+                    if text.lower().endswith(".docx"):
+                        docx_found = True
+                        new_filename = f"{unidecode(title_text)}_{index}.docx"
+                        print(f"⬇️  Found DOCX: {text}")
+                        with page.expect_download() as download_info:
+                            link.click(force=True)
+                        download = download_info.value
+                        docx_path = downloads_dir / new_filename
+                        download.save_as(docx_path)
+                        print(f"✅ Saved to: {docx_path}")
+
+                        # Đọc nội dung file DOCX
+                        print(f"🔍 Reading DOCX {docx_path.name}")
+                        try:
+                            doc = Document(docx_path)
+                            docx_text = ""
+                            for paragraph in doc.paragraphs:
+                                docx_text += paragraph.text + "\n"
+
+                            # Thêm keywords vào tập hợp chung
+                            for kw in keywords:
+                                if kw.lower() in docx_text.lower():
+                                    all_found_keywords.add(kw)
+
+                            print(f"🔎 Found keywords in {docx_path.name}: {list(all_found_keywords)}")
+
+                        except Exception as e:
+                            print(f"❌ DOCX Error: {e}")
+                
+                if docx_found:
+                    company_data["Ngôn ngữ / Framework"] = ", ".join(all_found_keywords)
+                    print(f"🧠 All keywords found: {list(all_found_keywords)}")
+                    results.append(company_data)
+                    company_quantity += 1
+                else:
+                    print(f"⚠️ No PDF or DOCX found for {title_text}")
+                    company_do_not_have_pdf_docx.append(title_text)
+
             page.keyboard.press("Escape")
             time.sleep(1)
-
+        
         except Exception as e:
             print(f"⚠️ Error with company #{i + 1}: {e}")
             continue
 
     df = pd.DataFrame(results)
-    csv_path = base_dir / "result_combined.csv"
+    csv_path = base_dir / "result.csv"
     df.to_csv(csv_path, index=False)
     print(f"📄 Đã lưu kết quả vào {csv_path}")
 
-    print(f"\n🎉 Done! Processed {company_quantity} / {len(logos) + 4 + len(company_do_not_have_pdf)} companies")
+    print(f"\n🎉 Done! Processed {company_quantity} / {len(logos) + 4 + len(company_do_not_have_pdf_docx)} companies")
+    print(f"⚠️ Company do not have docx or pdf file", company_do_not_have_pdf_docx)
