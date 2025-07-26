@@ -2,3 +2,4 @@
 .venv/
 result_combined.csv
 downloads/
+.env

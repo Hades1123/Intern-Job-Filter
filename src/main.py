@@ -6,6 +6,12 @@ import pytesseract
 import pandas as pd
 from unidecode import unidecode
 from docx import Document
+from openai import OpenAI
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
+api_key = os.getenv("OPENAI_API_KEY")
 
 pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
 base_dir = Path(__file__).resolve().parent.parent
@@ -117,6 +123,30 @@ keywords = [
 
 results = []
 
+def extract_technologies_with_ai(text):
+    client = OpenAI(api_key=api_key, base_url="https://api.deepseek.com")
+    prompt = f"""
+    Đoạn văn bản sau đây mô tả một số công nghệ và framework được sử dụng trong một công ty. 
+    Hãy trích xuất danh sách các công nghệ và framework từ đoạn văn bản này:
+    
+    {text}
+    
+    Trả về danh sách các công nghệ và framework theo định dạng sau: "[react, typescript, python,...]".Không ghi thừa bất kì thông tin gì khác!
+    """
+
+    try:
+        response = client.chat.completions.create(
+            model="deepseek-chat",
+            messages=[{"role": "user", "content": prompt}],
+            max_tokens=200,
+        )
+        technologies = response.choices[0].message.content
+        return [tech.strip() for tech in technologies.split(",")]
+
+    except Exception as e:
+        print(f"❌ AI Error: {e}")
+        return []
+    
 with sync_playwright() as p:
     browser = p.chromium.launch(headless=False)
     page = browser.new_page()
@@ -180,11 +210,11 @@ with sync_playwright() as p:
                         for image in images:
                             text += pytesseract.image_to_string(image)
                         
-                        for kw in keywords:
-                            if kw.lower() in text.lower():
-                                all_found_keywords.add(kw)
-                        
-                        print(f"🔎 Found keywords in {pdf_path.name}: {list(all_found_keywords)}")
+                        print(f"🔍 Sending OCR text to AI for analysis")
+                        extracted_technologies = extract_technologies_with_ai(text)
+                        all_found_keywords.update(extracted_technologies)
+
+                        print(f"🔎 Found technologies in {pdf_path.name}: {list(all_found_keywords)}")
 
                     except Exception as e:
                         print(f"❌ OCR Error: {e}")
@@ -241,6 +271,8 @@ with sync_playwright() as p:
             page.keyboard.press("Escape")
             time.sleep(1)
         
+            if company_quantity == 10:
+                break
         except Exception as e:
             print(f"⚠️ Error with company #{i + 1}: {e}")
             continue
