@@ -127,11 +127,10 @@ def extract_technologies_with_ai(text):
     client = OpenAI(api_key=api_key, base_url="https://api.deepseek.com")
     prompt = f"""
     Đoạn văn bản sau đây mô tả một số công nghệ và framework được sử dụng trong một công ty. 
-    Hãy trích xuất danh sách các công nghệ và framework từ đoạn văn bản này:
+    Hãy trả về ngắn gọn danh sách các công nghệ và framework từ đoạn văn bản này, mỗi phần tử cách nhau một dấu phẩy. Tuyệt đối không ghi thừa gì thêm ! Chỉ ghi ngắn gọn hết sức có thể các công nghệ và framework có trong văn bản: 
     
     {text}
-    
-    Trả về danh sách các công nghệ và framework theo định dạng sau: "[react, typescript, python,...]".Không ghi thừa bất kì thông tin gì khác!
+
     """
 
     try:
@@ -161,7 +160,7 @@ with sync_playwright() as p:
         try:
             print(f"\n🔍 Clicking company #{i + 1}")
             logo.click()
-            time.sleep(3)
+            time.sleep(5)
             
             title_element = page.query_selector("div.about-course h4")
             title_text = title_element.inner_text().strip() if title_element else 'unknown'
@@ -250,9 +249,8 @@ with sync_playwright() as p:
                                 docx_text += paragraph.text + "\n"
 
                             # Thêm keywords vào tập hợp chung
-                            for kw in keywords:
-                                if kw.lower() in docx_text.lower():
-                                    all_found_keywords.add(kw)
+                            extracted_technologies = extract_technologies_with_ai(docx_text)
+                            all_found_keywords.update(extracted_technologies)
 
                             print(f"🔎 Found keywords in {docx_path.name}: {list(all_found_keywords)}")
 
@@ -270,9 +268,10 @@ with sync_playwright() as p:
 
             page.keyboard.press("Escape")
             time.sleep(1)
-        
-            if company_quantity == 10:
-                break
+
+            # Debug
+            # if company_quantity == 10:
+            #     break
         except Exception as e:
             print(f"⚠️ Error with company #{i + 1}: {e}")
             continue
