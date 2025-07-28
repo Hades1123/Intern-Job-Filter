@@ -976,6 +976,25 @@ def count_normalized_keywords(df, keywords, column_name):
     
     return counter
 
+# Tạo biểu đồ
+def create_chart(title, color, counts, save_name):
+    plt.figure(figsize=(10, 8))
+    bars = plt.barh(list(counts.keys()), list(counts.values()), color=color)
+    plt.title(f'{title} phổ biến trong các công ty thực tập HK 242 HCMUT', fontsize=12)
+    plt.xlabel('Số lượng công ty')
+    plt.ylabel('Công cụ & Công nghệ bổ sung')
+    plt.grid(axis='x', linestyle='--', alpha=0.7)
+
+    # Thêm số lượng cụ thể vào đầu mỗi cột
+    for bar in bars:
+        width = bar.get_width()
+        plt.text(width + 0.3, bar.get_y() + bar.get_height()/2, f'{width}',
+                ha='left', va='center', fontweight='bold')
+
+    plt.tight_layout()
+    plt.savefig(f'chart/{save_name}.png')
+    plt.close()
+
 # Đếm ngôn ngữ và framework sau khi đã chuẩn hóa
 language_counts = count_normalized_keywords(df, languages, 'Ngôn ngữ / Framework')
 frontend_counts = count_normalized_keywords(df, frontend_technologies, 'Ngôn ngữ / Framework')
@@ -1006,217 +1025,39 @@ low_code_business_counts = dict(sorted(low_code_business_counts.items(), key=lam
 tools_misc_counts = dict(sorted(tools_misc_counts.items(), key=lambda x: x[1], reverse=False))
 
 # Tạo biểu đồ ngang cho ngôn ngữ
-plt.figure(figsize=(10, 8))
-bars = plt.barh(list(language_counts.keys()), list(language_counts.values()), color='skyblue')
-plt.title('Ngôn ngữ lập trình phổ biến trong các công ty thực tập HK 242 HCMUT', fontsize=16)
-plt.xlabel('Số lượng công ty')
-plt.ylabel('Ngôn ngữ')
-plt.grid(axis='x', linestyle='--', alpha=0.7)
-
-# Thêm số lượng cụ thể vào đầu mỗi cột
-for bar in bars:
-    width = bar.get_width()
-    plt.text(width + 0.3, bar.get_y() + bar.get_height()/2, f'{width}',
-            ha='left', va='center', fontweight='bold')
-
-plt.tight_layout()
-plt.savefig('chart/languages_chart.png')
-plt.close()
+create_chart('Ngôn ngữ lập trình', 'skyblue', language_counts, 'languages_chart')
 
 # Tạo biểu đồ ngang cho Front-end
-plt.figure(figsize=(10, 8))
-bars = plt.barh(list(frontend_counts.keys()), list(frontend_counts.values()), color='skyblue')
-plt.title('Front-end library and framework trong các công ty thực tập HK 242 HCMUT', fontsize=16)
-plt.xlabel('Số lượng công ty')
-plt.ylabel('Ngôn ngữ')
-plt.grid(axis='x', linestyle='--', alpha=0.7)
-
-# Thêm số lượng cụ thể vào đầu mỗi cột
-for bar in bars:
-    width = bar.get_width()
-    plt.text(width + 0.3, bar.get_y() + bar.get_height()/2, f'{width}',
-            ha='left', va='center', fontweight='bold')
-
-plt.tight_layout()
-plt.savefig('chart/front-end_chart.png')
-plt.close()
+create_chart('Front-end library and framework', 'skyblue', frontend_counts, 'front-end_chart')
 
 # Tạo biểu đồ ngang cho backend
-plt.figure(figsize=(10, 8))
-bars = plt.barh(list(backend_counts.keys()), list(backend_counts.values()), color='lightblue')
-plt.title('Backend Technologies phổ biến trong các công ty thực tập HK 242 HCMUT', fontsize=16)
-plt.xlabel('Số lượng công ty')
-plt.ylabel('Công nghệ Backend')
-plt.grid(axis='x', linestyle='--', alpha=0.7)
-
-# Thêm số lượng cụ thể vào đầu mỗi cột
-for bar in bars:
-    width = bar.get_width()
-    plt.text(width + 0.3, bar.get_y() + bar.get_height()/2, f'{width}',
-            ha='left', va='center', fontweight='bold')
-
-plt.tight_layout()
-plt.savefig('chart/backend_chart.png')
-plt.close()
+create_chart('Backend Technologies', 'lightblue', backend_counts, 'backend_chart')
 
 # Tạo biểu đồ ngang cho database
-plt.figure(figsize=(10, 8))
-bars = plt.barh(list(database_counts.keys()), list(database_counts.values()), color='lightcoral')
-plt.title('Database Technologies phổ biến trong các công ty thực tập HK 242 HCMUT', fontsize=16)
-plt.xlabel('Số lượng công ty')
-plt.ylabel('Công nghệ Database')
-plt.grid(axis='x', linestyle='--', alpha=0.7)
-
-# Thêm số lượng cụ thể vào đầu mỗi cột
-for bar in bars:
-    width = bar.get_width()
-    plt.text(width + 0.3, bar.get_y() + bar.get_height()/2, f'{width}',
-            ha='left', va='center', fontweight='bold')
-
-plt.tight_layout()
-plt.savefig('chart/database_chart.png')
-plt.close()
+create_chart('Database Technologies', 'lightcoral', database_counts, 'database_chart')
 
 # Tạo biểu đồ ngang cho AI/ML
-plt.figure(figsize=(10, 8))
-bars = plt.barh(list(ai_ml_counts.keys()), list(ai_ml_counts.values()), color='lightgreen')
-plt.title('AI/ML Technologies phổ biến trong các công ty thực tập HK 242 HCMUT', fontsize=16)
-plt.xlabel('Số lượng công ty')
-plt.ylabel('Công nghệ AI/ML')
-plt.grid(axis='x', linestyle='--', alpha=0.7)
-
-# Thêm số lượng cụ thể vào đầu mỗi cột
-for bar in bars:
-    width = bar.get_width()
-    plt.text(width + 0.3, bar.get_y() + bar.get_height()/2, f'{width}',
-            ha='left', va='center', fontweight='bold')
-
-plt.tight_layout()
-plt.savefig('chart/ai_ml_chart.png')
-plt.close()
+create_chart('AI/ML Technologies', 'lightgreen', ai_ml_counts, 'ai_ml_chart')
 
 # Tạo biểu đồ ngang cho DevOps/Cloud
-plt.figure(figsize=(10, 8))
-bars = plt.barh(list(devops_cloud_counts.keys()), list(devops_cloud_counts.values()), color='lightsalmon')
-plt.title('DevOps/Cloud Technologies phổ biến trong các công ty thực tập HK 242 HCMUT', fontsize=16)
-plt.xlabel('Số lượng công ty')
-plt.ylabel('Công nghệ DevOps/Cloud')
-plt.grid(axis='x', linestyle='--', alpha=0.7)
-
-# Thêm số lượng cụ thể vào đầu mỗi cột
-for bar in bars:
-    width = bar.get_width()
-    plt.text(width + 0.3, bar.get_y() + bar.get_height()/2, f'{width}',
-            ha='left', va='center', fontweight='bold')
-
-plt.tight_layout()
-plt.savefig('chart/devops_cloud_chart.png')
-plt.close()
+create_chart('DevOps/Cloud Technologies', 'lightsalmon', devops_cloud_counts, 'devops_cloud_chart')
 
 # Tạo biểu đồ ngang cho Mobile
-plt.figure(figsize=(10, 8))
-bars = plt.barh(list(mobile_counts.keys()), list(mobile_counts.values()), color='mediumpurple')
-plt.title('Mobile Development Technologies phổ biến trong các công ty thực tập HK 242 HCMUT', fontsize=16)
-plt.xlabel('Số lượng công ty')
-plt.ylabel('Công nghệ Mobile')
-plt.grid(axis='x', linestyle='--', alpha=0.7)
-
-# Thêm số lượng cụ thể vào đầu mỗi cột
-for bar in bars:
-    width = bar.get_width()
-    plt.text(width + 0.3, bar.get_y() + bar.get_height()/2, f'{width}',
-            ha='left', va='center', fontweight='bold')
-
-plt.tight_layout()
-plt.savefig('chart/mobile_chart.png')
-plt.close()
+create_chart('Mobile Development Technologies', 'mediumpurple', mobile_counts, 'mobile_chart')
 
 # Tạo biểu đồ ngang cho Game Development
-plt.figure(figsize=(10, 8))
-bars = plt.barh(list(game_dev_counts.keys()), list(game_dev_counts.values()), color='gold')
-plt.title('Game Development Technologies phổ biến trong các công ty thực tập HK 242 HCMUT', fontsize=16)
-plt.xlabel('Số lượng công ty')
-plt.ylabel('Công nghệ Game Development')
-plt.grid(axis='x', linestyle='--', alpha=0.7)
-
-# Thêm số lượng cụ thể vào đầu mỗi cột
-for bar in bars:
-    width = bar.get_width()
-    plt.text(width + 0.3, bar.get_y() + bar.get_height()/2, f'{width}',
-            ha='left', va='center', fontweight='bold')
-
-plt.tight_layout()
-plt.savefig('chart/game_dev_chart.png')
-plt.close()
+create_chart('Game Development Technologies', 'gold', game_dev_counts, 'game_dev_chart')
 
 # Tạo biểu đồ ngang cho IoT/Embedded
-plt.figure(figsize=(10, 8))
-bars = plt.barh(list(iot_embedded_counts.keys()), list(iot_embedded_counts.values()), color='aquamarine')
-plt.title('IoT/Embedded Technologies phổ biến trong các công ty thực tập HK 242 HCMUT', fontsize=16)
-plt.xlabel('Số lượng công ty')
-plt.ylabel('Công nghệ IoT/Embedded')
-plt.grid(axis='x', linestyle='--', alpha=0.7)
-
-# Thêm số lượng cụ thể vào đầu mỗi cột
-for bar in bars:
-    width = bar.get_width()
-    plt.text(width + 0.3, bar.get_y() + bar.get_height()/2, f'{width}',
-            ha='left', va='center', fontweight='bold')
-
-plt.tight_layout()
-plt.savefig('chart/iot_embedded_chart.png')
-plt.close()
+create_chart('IoT/Embedded Technologies', 'aquamarine', iot_embedded_counts, 'iot_embedded_chart')
 
 # Tạo biểu đồ ngang cho Testing/Security
-plt.figure(figsize=(10, 8))
-bars = plt.barh(list(testing_security_counts.keys()), list(testing_security_counts.values()), color='orchid')
-plt.title('Testing/Security Technologies phổ biến trong các công ty thực tập HK 242 HCMUT', fontsize=16)
-plt.xlabel('Số lượng công ty')
-plt.ylabel('Công nghệ Testing/Security')
-plt.grid(axis='x', linestyle='--', alpha=0.7)
-
-# Thêm số lượng cụ thể vào đầu mỗi cột
-for bar in bars:
-    width = bar.get_width()
-    plt.text(width + 0.3, bar.get_y() + bar.get_height()/2, f'{width}',
-            ha='left', va='center', fontweight='bold')
-
-plt.tight_layout()
-plt.savefig('chart/testing_security_chart.png')
-plt.close()
+create_chart('Testing/Security Technologies', 'orchid', testing_security_counts, 'testing_security_chart')
 
 # Tạo biểu đồ ngang cho Low-Code/No-Code & Business Tools
-plt.figure(figsize=(10, 8))
-bars = plt.barh(list(low_code_business_counts.keys()), list(low_code_business_counts.values()), color='paleturquoise')
-plt.title('Low-Code/No-Code & Business Tools phổ biến trong các công ty thực tập HK 242 HCMUT', fontsize=16)
-plt.xlabel('Số lượng công ty')
-plt.ylabel('Công nghệ Low-Code/No-Code & Business')
-plt.grid(axis='x', linestyle='--', alpha=0.7)
-
-# Thêm số lượng cụ thể vào đầu mỗi cột
-for bar in bars:
-    width = bar.get_width()
-    plt.text(width + 0.3, bar.get_y() + bar.get_height()/2, f'{width}',
-            ha='left', va='center', fontweight='bold')
-
-plt.tight_layout()
-plt.savefig('chart/low_code_business_chart.png')
-plt.close()
+create_chart('Low-Code/No-Code & Business Tools','paleturquoise', low_code_business_counts,'low_code_business_chart')
 
 # Tạo biểu đồ ngang cho Tools & Misc Technologies
-plt.figure(figsize=(10, 8))
-bars = plt.barh(list(tools_misc_counts.keys()), list(tools_misc_counts.values()), color='plum')
-plt.title('Tools & Misc Technologies phổ biến trong các công ty thực tập HK 242 HCMUT', fontsize=16)
-plt.xlabel('Số lượng công ty')
-plt.ylabel('Công cụ & Công nghệ bổ sung')
-plt.grid(axis='x', linestyle='--', alpha=0.7)
+create_chart('Tools & Misc Technologies', 'plum', tools_misc_counts, 'tools_misc_chart')
 
-# Thêm số lượng cụ thể vào đầu mỗi cột
-for bar in bars:
-    width = bar.get_width()
-    plt.text(width + 0.3, bar.get_y() + bar.get_height()/2, f'{width}',
-            ha='left', va='center', fontweight='bold')
 
-plt.tight_layout()
-plt.savefig('chart/tools_misc_chart.png')
-plt.close()
